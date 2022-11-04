@@ -31,6 +31,7 @@ const imgHandler = (event) => {
     return;
   }
   event.preventDefault();
+
   instance = basicLightbox.create(`
     <img src=${event.target.getAttribute(
       "data-source"
